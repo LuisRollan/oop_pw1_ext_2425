@@ -1,1 +1,1 @@
-﻿Console.WriteLine("Write your code here for practical work 1!!!");
+﻿Console.WriteLine("Write your code ere for practical work 1!!!");

@@ -13,11 +13,11 @@ namespace oop_pw1_ext
         protected string Type { get; set; }
 
         protected TrainStatus Status { get; set; }
-        public Train(string id, string type, int ArrivalTime)
+        public Train(string id, string type, int arrivalTime)
         {
-            ID = id;
-            Type = type;
-            ArrivalTime = ArrivalTime;
+            this.ID = id;
+            this.Type = type;
+            this.ArrivalTime = arrivalTime;
             Status = TrainStatus.EnRoute;
         }
 

@@ -8,11 +8,11 @@ namespace oop_pw1_ext
         protected int NumberOfCarriages { get; set; }
 
         protected int Capacity { get; set; }
-        public PassengerTrain(string id, string type, int ArrivalTime, int NumberOfCarriages, int Capacity) : base(id, type, ArrivalTime)
+        public PassengerTrain(string id, string type, int arrivalTime, int numberOfCarriages, int capacity) : base(id, type, arrivalTime)
         {
 
-            NumberOfCarriages = NumberOfCarriages;
-            Capacity = Capacity;
+            this.NumberOfCarriages = numberOfCarriages;
+            this.Capacity = capacity;
 
         }
         
